@@ -4,7 +4,7 @@ Use Nouns as avatars in your ConnectKit project. Generates a fallback Noun avata
 
 ## Usage
 
-First, set up ConnectKit in your project [Instructions for getting started](https://docs.family.co/connectkit/getting-started). Then, install `connectkit-nouns` with your preferred package manager...
+First, set up ConnectKit in your project. [Instructions for getting started](https://docs.family.co/connectkit/getting-started). Then, install `connectkit-nouns` with your preferred package manager...
 
 ```bash
 # npm
@@ -19,7 +19,7 @@ pnpm i connectkit-nouns
 
 ... and update the `ConnectKitProvider`.
 
-```ts
+```tsx
 import NounAvatars from 'connectkit-nouns';
 
 // ...
@@ -31,4 +31,4 @@ import NounAvatars from 'connectkit-nouns';
 </WagmiConfig>;
 ```
 
-That's it! Now, all `<Avatar />` components within your app will use Noun avatars as a fallback.
+That's it! Now, all `<Avatar />` components within your app will use Noun avatars as a fallback. See a demo React app on [CodeSandbox](https://codesandbox.io/s/connectkit-nouns-demo-ijrip3).
