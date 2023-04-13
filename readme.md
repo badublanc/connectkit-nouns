@@ -31,4 +31,4 @@ import NounAvatars from 'connectkit-nouns';
 </WagmiConfig>;
 ```
 
-That's it! Now, all `<Avatar />` components within your app will use Noun avatars as a fallback. See a demo React app on [CodeSandbox](https://codesandbox.io/s/connectkit-nouns-demo-ijrip3).
+That's it! Now, all `<Avatar />` components within your app will use Noun avatars as a fallback. See a demo React app on [CodeSandbox](https://codesandbox.io/p/sandbox/thirsty-brook-14o842?file=%2Fsrc%2Fmain.tsx).
